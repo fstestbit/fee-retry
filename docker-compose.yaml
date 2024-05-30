@@ -1,0 +1,7 @@
+services:
+  fee:
+    build:
+      context: .
+    container_name: "fee_for_users"
+    ports:
+      - '3123:3000'
